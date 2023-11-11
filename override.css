@@ -1,0 +1,25 @@
+.col-inner .qib-container:not(#qib_id):not(#qib_id) {
+display: flex;
+position: relative;
+width: 100%;
+justify-content: center;
+	margin-top:-45%!important;
+	
+}
+.col-inner .product-small .box-text .add-to-cart-button{
+margin-top:30%!important;
+}
+@media (min-width: 768px) {
+   
+}
+@media (max-width: 549px) {
+
+}
+@media (max-width: 480px) {
+       	.col-inner .product-small .box-text .add-to-cart-button{
+margin-top:50%!important;
+}
+	.col-inner .qib-container:not(#qib_id):not(#qib_id) {
+	margin-top:-65%!important;
+}
+}
